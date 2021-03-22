@@ -1,0 +1,46 @@
+.ratingWrapper {
+  max-width: 400px;
+  margin: 20px auto;
+  width: 100%;
+  box-shadow: 0px 4px 24px rgba(185, 188, 197, 0.2);
+  padding: 20px;
+}
+
+.starRateWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.radioButtonLabel {
+  margin-bottom: 0;
+}
+
+.radioButton {
+  display: none;
+}
+
+.ratingContainer {
+  display: flex;
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rating {
+  font-size: 12px;
+}
+
+.ratingNumber {
+  font-weight: bold;
+  color: #E0C700;
+}
